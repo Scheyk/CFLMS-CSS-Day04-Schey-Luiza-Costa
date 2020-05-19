@@ -1,4 +1,9 @@
-li {
-  list-style-type: inline; }
+nav ul {
+  list-style: none; }
+nav li {
+  display: none; }
+nav a {
+  display: black;
+  text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */
