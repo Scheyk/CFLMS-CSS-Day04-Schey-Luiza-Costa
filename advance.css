@@ -9,9 +9,30 @@ body {
     body div img {
       width: 30%; }
 
-@media screen and (max-width: 781px) {
-  .container {
-    -webkit-flex-direction: columns;
-    flex-direction: columns; } }
+/*galaxy 6 */
+@media screen and (max-width: 400px) {
+  img {
+    border-radius: 3%; } }
+@media screen and (min-width: 800px) {
+  img {
+    border-radius: 20%; } }
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {
+  img {
+    border-radius: 20%;
+    border-color: #2CB44B; } }
+/*laptop no-retina*/
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  img {
+    border-radius: 20%;
+    border: 5px solid #2CB44B; } }
+/*laptop retina */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+  img {
+    border-radius: 20%;
+    border: 5px solid #00BFFF; } }
+/*ipad portrait & landscape*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  img {
+    border: none; } }
 
 /*# sourceMappingURL=advance.css.map */
