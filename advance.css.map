@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,IAAK;EACJ,KAAK,EAAE,KAAK;;AAGb,mHAGwC;EACtC,OAAQ;IACP,MAAM,EAAE,GAAG;IACX,KAAK,EAAE,GAAG",
+"sources": ["advance.scss"],
+"names": [],
+"file": "advance.css"
+}
