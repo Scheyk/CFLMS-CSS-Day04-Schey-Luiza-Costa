@@ -1,9 +1,17 @@
 body {
-  width: 800px; }
+  width: 800px;
+  margin: auto; }
+  body div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    overflow: none; }
+    body div img {
+      width: 30%; }
 
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
-  .photo1 {
-    margin: 25%;
-    width: 50%; } }
+@media screen and (max-width: 781px) {
+  .container {
+    -webkit-flex-direction: columns;
+    flex-direction: columns; } }
 
 /*# sourceMappingURL=advance.css.map */
